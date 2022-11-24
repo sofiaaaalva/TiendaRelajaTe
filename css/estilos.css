@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:wght@400;600;800&display=swap');
+
+/*colores 
+#a6db92 claro 
+#65b946 intermedio
+#1e8f17 verde
+#468f41 oscuro*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color:#65b946;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+} 
+
+h1 {
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 400;
+}
+
+nav,footer{
+    color: #1e8f17;
+    background-color:#a6db92 ;
+}
+
+.navbar{
+    --bs-navbar-color: #1e8f17;
+}
+
+#iconofb,#iconoig,#iconowpp,#iconomail,#iconotel,#iconoubi{
+    color: #1e8f17;
+}
+
+.accordion-item{
+    background-color: #65b946;
+}
+
+.accordion{
+    background-color: #65b946;
+    --bs-accordion-bg: #468f41;
+    --bs-accordion-border-color: none;
+    --bs-accordion-btn-active-icon:black;
+}
+
+.list-group{
+    --bs-list-group-bg: #65b946;
+    --bs-list-group-color:white;
+}
+
+.accordion-button:not(.collapsed){
+    background-color:#a6db92;
+    color:black;
+}
+
+.accordion-button{
+    color: white;
+}
+
+#cierredos,#cierreuno,#cierreuno2,#cierredos2,#cierretres2,#cierreuno3,#cierredos3,#cierretres3,#cierrecuatro3{
+    color: white;
+}
+
+.btn{
+    background-color: #a6db92;
+    color: white;
+    font-weight: 700;
+}
+
+.btn:hover{
+    color:#a6db92;
+    background-color: #1e8f17;
+}
+
+#accion{
+    background-color:#1e8f17 ;
+    font-size:large;
+    font-weight: 700;
+}
+
+.card,.card-body{
+    color:black;
+}
+
+#productos3{
+    color: white;
+    background-color: #a6db92;
+}
+
+#grupo1,#grupo2,#grupo3{
+    background-color: #a6db92;
+    color:#1e8f17;
+}
+
+.btn:first-child:hover, :not(.btn-check)+.btn:hover{
+    color: white ;
+    background-color: #1e8f17;
+    border-color: none;
+}
+
+.btn-primary {
+    --bs-btn-border-color: none;
+}
+
+a{
+    color:#1e8f17;
+}
+
+a:hover{
+    color: #65b946;
+}
+
+.form-text{
+    color:#a6db92;
+}
+
+.form-control{
+    border-color: #1e8f17;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: #468f41;
+}
+
+#logowpp{
+    color:#1e8f17;
+}
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+
+     <!-- css estilos genericos bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <!-- copio y pego css de iconos de bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap y otras librerías -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/jquery.smartcart/css/smart_cart.min.css">
+    <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css">
+
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<header class="container">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/home/logotipo.png" alt="isologotipo RelajaTé" width="74" height="63"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion"
+                aria-controls="navegacion" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navegacion">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PreguntasFrecuentes.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>  <!-- fin nav -->
+
+<section class="container">
+    <div class="row my-5">
+        <div class="col-md-9">
+            <h1 class="text-center py-5">Productos</h1>
+            <div id="productos" class="row">
+                <!-- Acá vienen los productos -->
+            </div>
+        </div>
+
+        <div class="col-md-3 my-3 py-5" id="productos3" >
+            <h2 >Mi pedido</h2>
+            <div id="smartcart" class="cardproductos"></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+    <div class="row flex-column-reverse flex-md-row py-3" width="auto">
+        <div class="col-md-6">
+            <p>Sofia Alva Soriano  -  1°2°C  -  Desarrollo II y Programación I</p>
+        </div>
+        <div class="col-md-6">
+            <ul class="list-inline d-flex justify-content-md-end me-4">
+                <li class="list-inline-item mx-2">
+                    <a href="https://es-la.facebook.com/" target="_blank" alt="facebook" title="facebook"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="list-inline-item mx-2">
+                    <a href="https://www.instagram.com/" target="_blank" alt="instagram" title="instagram"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li class="list-inline-item mx-2">
+                  <a href="https://web.whatsapp.com/" target="_blank" alt="whatsapp" title="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                </li>   
+                <li class="list-inline-item mx-2">
+                  <a href="https://www.google.com/intl/es/gmail/about/#inbox" target="_blank" alt="email" title="email"><i class="bi bi-envelope"></i></a>
+                </li> 
+                <li class="list-inline-item mx-2">
+                  <a href="https://goo.gl/maps/KVcLL8yc7LSeZUdE7" target="_blank" alt="mapa" title="locales"><i class="bi bi-geo-alt"></i></a>
+                </li>            
+            </ul>
+        </div>
+    </div>
+</div>
+</footer> <!-- fin pie -->
+
+     
+<div id="logowpp"></div>
+
+<a id="scroll-to-top"></a>
+
+      
+<!-- mundo jquery -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+</script>
+      
+
+<!-- JavaScript, Bootstrap, jQuery -->
+<script src="vendors/jquery/jquery-3.6.1.min.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendors/jquery.smartcart/js/jquery.smartCart.js"></script>
+<!-- Pluggin Jquery whatsapp -->
+<script type="text/javascript" src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+
+<!-- Scroll to top -->
+<script type="text/javascript" src="vendors/scrolltotop/illbeback.min.js"></script>
+
+<!-- Scripts personalizados -->
+<script src="js/productos.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>
